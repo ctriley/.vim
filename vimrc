@@ -2,12 +2,15 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
-Bundle 'altercation/vim-colors-solarized'
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'gmarik/vundle'
+Plugin 'altercation/vim-colors-solarized'
 Plugin 'bfrg/vim-cpp-modern'
+
+call vundle#end()
 
 filetype plugin indent on  " required!
 
