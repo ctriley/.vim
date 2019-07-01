@@ -13,9 +13,16 @@ Plugin 'bfrg/vim-cpp-modern'
 call vundle#end()
 
 filetype plugin indent on  " required!
-
 syntax enable
-set background=dark
+
+if has('unix')
+    if has('mac')
+    else
+        set t_Co=16
+        let g:solarized_termcolor=16
+    endif
+endif
+
 colorscheme solarized
 
 " end vundle / solarized part of vimrc
