@@ -25,7 +25,11 @@ if has('unix')
 endif
 
 colorscheme solarized
-
+if has('gui_running')
+    set background=light
+else
+    set background=dark
+endif
 " end vundle / solarized part of vimrc
 "
 " Sets how many lines of history VIM has to remember
