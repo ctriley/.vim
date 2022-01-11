@@ -9,7 +9,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'gmarik/vundle'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bfrg/vim-cpp-modern'
-Plugin 'ycm-core/YouCompleteMe'
 
 call vundle#end()
 
