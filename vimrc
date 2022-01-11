@@ -9,7 +9,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'gmarik/vundle'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bfrg/vim-cpp-modern'
-Plugin 'ycm-core/YouCompleteMe'
+Plugin 'pangloss/vim-javascript' 
 
 call vundle#end()
 
@@ -142,3 +142,12 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 set colorcolumn=80
 set relativenumber
 
+augroup yaml_fix
+    autocmd!
+    autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab indentkeys-=0# indentkeys-=<:>
+augroup END
+
+autocmd FileType javascript set sw=2
+autocmd FileType javascript set ts=2
+autocmd FileType javascript set sts=2
+autocmd FileType javascript set textwidth=79
