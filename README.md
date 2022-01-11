@@ -8,11 +8,6 @@ Installation
 
 In vim execute `:PluginInstall`
 
-`cd ~/.vim/bundle/YouCompleteMe && python3 install.py --clangd-completer`
-
-To add autocompletion for other languages see the YouCompleteMe documentation here:
-https://github.com/ycm-core/YouCompleteMe
-
 
 Author
 -------------------
