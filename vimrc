@@ -9,7 +9,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'gmarik/vundle'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bfrg/vim-cpp-modern'
-Plugin 'pangloss/vim-javascript' 
 
 call vundle#end()
 
